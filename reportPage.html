@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report Page</title>
+  <link rel="stylesheet" href="report.style.css">
+  <link rel="stylesheet" href="accordian.style.css">
+  <link rel="stylesheet" href="footer.style.css">
+  <script src="https://kit.fontawesome.com/3b49a45ba4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="banner_div">
+    <!-- navbar start -->
+    <div class="navbar_div">
+      <ul class="navbar">
+        <li><a class="home" href="#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <div class="dropdown">
+          <li class="dropbtn">industries
+          </li>
+          <div class="dropdown-content">
+            <a href="#">Chemicals and Materials</a>
+            <a href="#">Construction and Manufacturing</a>
+            <a href="#">Electronics and Semiconductir</a>
+            <a href="#">Energy and Mining</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <li class="dropbtn">Insights
+          </li>
+          <div class="dropdown-content">
+            <a href="#">Blogs</a>
+            <a href="#">Press Releases</a>
+          </div>
+        </div>
+        <li><a href="contect.html">Contact</a></li>
+      </ul>
+    </div>
+    <!-- navbar end -->
+    <img src="images/perfume.jpg.jpg" class="Perfume_image"></img>
+    <h2 class="title">
+      Perfume Market: Global Industry Trends, Share, Size, Growth, Opportunity and <br>Forecast 2023-2028
+    </h2>
+    <accordian />
+    <p class="global_perfume">The global perfume market reached a value of US$ 33.5 billion in 2021. Looking forward,
+      the market is projected to reach US$ 47.6 billion by 2027, exhibiting a CAGR of 6.1% during 2022-2027. Keeping
+      in mind the uncertainties of COVID-19, the analyst is continuously tracking and evaluating <br>the direct as well
+      as
+      the indirect influence of the pandemic. These insights are included in the report as a major market contributor.
+    </p>
+    <!-- accordian start -->
+    <div class="accordian_div">
+      <button class="accordion">Highlights</button>
+      <div class="panel">
+        <p class="info">The Fragrances segment includes the consumer market for perfume and Eau de Toilette and any
+          fragrances which
+          cover normal body odor. <br>The segment does not include room scents (see: Home and Laundry Care) or
+          deodorants and
+          antiperspirants (see: Personal Hygiene).<br> The world's major manufacturers of fragrances and perfumes are
+          Givaudan,
+          Firmenich, IFF and Symrise whch mainly serve as<br> suppliers for brand manufacturers. In the end consumer
+          market,
+          both brands of large cosmetics manufacturers, e.g. L'Oréal (Lancôme),<br> as well as those under licence from
+          fashion
+          brands are well-known.</p>
+      </div>
+      <button class="accordion">Table of Contents</button>
+      <div class="panel">
+        <div class="info">
+          1.Prefaces<br><br>
+          2.Report Coverage – Key Segmentation and Scopes<br><br>
+          <dl>
+            3.Report Descriptions<br><br>
+            <dd> 3.1 Market Definition and Outlook</dd><br>
+            <dd> 3.2 Properties and Applications</dd><br>
+            <dd> 3.3 Market Analysis</dd><br>
+            <dd> 3.4 Key Players</dd><br>
+            </dt>
+            4.Key Assumptions<br><br>
+            5.Executive Summary<br><br>
+            <dl>Market Snapshot<br><br>
+              <dd>6.1 Global</dd><br><br>
+              <dd>6.2 Regional</dd><br><br>
+            </dl>
+          </dl>
+        </div>
+      </div>
+      <button class="accordion">Methodology</button>
+      <div class="panel">
+        <h1>Research Methodology: </h1>
+        <p class="info">
+          IMARC Group employs a robust research methodology which involves data triangulation using an amalgamation of
+          bottom-up and top-down approaches and validation of the final market numbers through expert interviews. We use
+          our
+          extensive database of macroeconomic and sector-specific data to generate the industry forecast. Growth rates
+          exhibited by the market are calculated based on numerous factors and their level of impact on the market.
+          These
+          factors include market drivers, challenges, technological developments, government regulations, macro-economic
+          scenario, etc. Information is gathered from our internal databases, as well as from key stakeholders in the
+          industry. This enables us to take into account unprecedented events that otherwise cannot be normally
+          captured.
+          The initial baseline forecasts are generated with the most recent market data. After an initial baseline
+          forecast,
+          all future events and assumptions are based on extensive primary and secondary research
+        </p>
+      </div>
+      <button class="accordion">IN -SCOPE / OUT-OF-SCOPE</button>
+      <div class="panel">
+        <div class="info">
+          IN -SCOPE<br>
+          <li>Perfume</li><br>
+          <li>Eaux de toilette</li><br></br>
+          OUT-OF-SCOPE<br>
+          <li>Deodorants</li><br>
+          <li>Room scents</li>
+          </li>
+        </div>
+      </div>
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      </script>
+    </div>
+    <!-- accordian end -->
+    <div class="image_container">
+      <div>
+        <img src="images/global-perfume-market2.jpg" class="global_image"></img>
+      </div>
+      <div>
+        <img src="images/map.jpg" class="global_image"></img>
+      </div>
+    </div>
+    <div class="product_container">
+      <div>
+        <div class="table_data">
+          <h1 class="global_title">Breakup by Perfume Type: </h1>
+          <ol class="global_info">
+            <li> Premium Perfume Products </li><br><br>
+            <li> Mass Perfume Products </li>
+          </ol><br><br>
+          <h1 class="global_title">Breakup by Category:</h1>
+          <ol class="global_info">
+            <li> Male Fragrances</li><br><br>
+            <li> Female Fragrances</li><br><br>
+            <li> Unisex Fragrances </li>
+          </ol><br><br>
+        </div>
+      </div>
+      <div>
+        <table>
+          <tr>
+            <th>Report Attribute</th>
+            <th>Details</th>
+          </tr>
+          <tr>
+            <td>No.of Pages</td>
+            <td>128</td>
+          </tr>
+          <tr>
+            <td>Published</td>
+            <td>April 2022</td>
+          </tr>
+          <tr>
+            <td>Forecast Period</td>
+            <td>2021 - 20227</td>
+          </tr>
+          <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+          </tr>
+          <tr>
+            <td>Estimated Market Value ( USD ) in 2021 </td>
+            <td>$ 33.5 Billion
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div>
+      <h3 class="perfume_market_heading">What is the Fastest-Growing Segment in the Perfume Market In India:</h3>
+      <p class="perfume_market">The market share growth by the offline segment will be significant during the forecast
+        period. Stores like department stores, supermarkets, hypermarkets<br>and specialty shops are among the offline
+        distribution channels. Players broaden their product portfolios in the global, regional, and local markets to
+        boost sales through offline channels.The offline segment was valued at USD 551.10 million in 2017 and
+        continued to grow until 2021. Small stores that serve a single retail market are known as specialty stores or
+        flagship stores. These retail establishments offer a specific selection of goods and accessories<br> related to a
+        certain genre or category. Specialty stores keep a sizable supply of the product they are selling on hand. </p>
+      <img src="images/perfumemarket.jpg" class="perfumemarket_image"></img>
+    </div>
+  </div>
+  <!-- footer start -->
+  <div class="footer_container">
+    <div>
+      <h4 class="footer_heading">Imporatant Links</h4>
+      <ul class="footer_links">
+        <li>FAQ</li><br>
+        <li>Terms & Condition</li><br>
+        <li>Privacy Policy</li><br>
+        <li>Refund Policy</li><br>
+      </ul>
+    </div>
+    <div>
+      <h4 class="footer_heading">Quick Links</h4>
+      <ul class="footer_links">
+        <li>Custom Research</li><br>
+        <li>Consulting</li><br>
+        <li>Upcoming Reports</li><br>
+        <li>Press Relese</li><br>
+        <li>Blog</li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer_heading">SIGN UP FOR OUR NEWSLETTER</h2>
+      <label for="email" class="footer_email">Your Email</label>
+      <input type="text" id=" email">
+      <button class="footer_btn">Go</button>
+    </div>
+  </div>
+  <!-- footer end -->
+  </div>
+</body>
+
+</html>

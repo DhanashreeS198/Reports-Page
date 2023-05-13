@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2017-10-18" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FC037_TIP-LP-Form_desktop_FINAL" transform="translate(-313.000000, -789.000000)">
+            <g id="Group-3" transform="translate(136.000000, 442.000000)">
+                <g id="standard" transform="translate(0.000000, 121.000000)">
+                    <g id="Group" transform="translate(178.000000, 227.000000)">
+                        <circle id="Oval" stroke="#D8D8D8" fill="#FFFFFF" cx="10" cy="10" r="10"></circle>
+                        <path d="M12.6197819,10.6058647 L8.22252224,14.9922803 C7.94280341,15.2714534 7.48928728,15.2714534 7.20970425,14.9922803 C6.93009858,14.7133556 6.93009858,14.2609665 7.20970425,13.9820643 L11.1006002,10.1007567 L7.20981741,6.21958457 C6.93021175,5.94054693 6.93021175,5.48820297 7.20981741,5.20927823 C7.48942308,4.93024059 7.94291658,4.93024059 8.22263541,5.20927823 L12.6198951,9.59576157 C12.7596979,9.73529168 12.8295201,9.91796775 12.8295201,10.1007341 C12.8295201,10.2835908 12.7595621,10.4664023 12.6197819,10.6058647 Z" id="Shape" fill="#999999" fill-rule="nonzero" transform="translate(9.914760, 10.100830) rotate(90.000000) translate(-9.914760, -10.100830) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

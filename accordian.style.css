@@ -1,0 +1,33 @@
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  font-family: monospace;
+  padding-left: 10%;
+  color: rgb(126, 27, 126);
+  background-image: linear-gradient(109.6deg, rgb(223, 253, 253) 11.2%, rgb(213, 247, 247) 91.1%);
+}
+
+.accordian_div {
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.info {
+  font-size: 20px;
+  align-items: left;
+
+}
