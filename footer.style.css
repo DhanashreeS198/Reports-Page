@@ -5,6 +5,7 @@
   padding-top: 15px;
   background-color: rgb(190, 189, 189);
   cursor: pointer;
+
 }
 
 .footer_container>div {
@@ -16,12 +17,13 @@
   text-decoration-line: underline;
   text-align: left;
   padding-left: 5%;
-
+  
 }
 
 .footer_links {
   font-size: 18px;
   padding-left: 5%;
+  
 }
 
 .footer_email {
@@ -38,8 +40,18 @@
   font-family: sans-serif;
   font-weight: bold;
   border-radius: 10px;
+  
 }
 
 .footer_btn:hover {
   background-color: rgb(94, 67, 190);
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
 }

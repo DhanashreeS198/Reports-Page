@@ -71,10 +71,12 @@ li a:hover {
 
 .dropdown-content a:hover {
   background-color: #ddd;
+
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  
 }
 
 .Perfume_image {
@@ -176,17 +178,20 @@ tr:nth-child(even) {
   text-align: center;
   font-size: 30px;
 }
+
 .perfume_market{
   padding-left:5%;
   font-size:20px;
 }
+
 .perfume_market_heading{
   font-size:25px;
   color:rgb(126, 27, 126);
   padding-left:5%;
 
 }
-.perfumemarket_image{
+
+.perfumemarket_image {
   padding-left:15%;
   padding-top: 10px;
   height:15%;
